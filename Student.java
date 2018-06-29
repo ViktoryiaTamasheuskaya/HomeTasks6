@@ -69,7 +69,7 @@ public class Student {
             this.setMarkMath(mark);
         }
         else{
-            System.out.println("Please enter valid mark (from 1 to 5)!");
+            System.out.println("Please enter a valid mark (from 1 to 5)!");
             markMath();
 
         }
@@ -82,20 +82,20 @@ public class Student {
             this.setMarkEngl(mark);
         }
         else{
-            System.out.println("Please enter valid mark (from 1 to 5)!");
+            System.out.println("Please enter a valid mark (from 1 to 5)!");
             markEngl();
 
         }
     }
 
     public void markLitr(){
-        System.out.println("Mark for Literatura");
+        System.out.println("Mark for Literatura?");
         int mark=sc.nextInt();
         if (mark>0 && mark <=5){
             this.setMarkLitr(mark);
         }
         else{
-            System.out.println("Please enter valid mark (from 1 to 5)!");
+            System.out.println("Please enter a valid mark (from 1 to 5)!");
             markLitr();
 
         }
